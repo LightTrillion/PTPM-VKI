@@ -1,0 +1,18 @@
+# Виртуальное окружение
+venv/
+ENV/
+env/
+
+# Кэш Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Кэш фреймворка pytest
+.pytest_cache/
+.pytest/
+
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
