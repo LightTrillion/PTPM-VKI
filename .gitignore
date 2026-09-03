@@ -3,16 +3,12 @@ venv/
 ENV/
 env/
 
-# Кэш Python
+# Кэш компиляции Python (создается при запусках unittest)
 **/__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Кэш фреймворка pytest
-.pytest_cache/
-.pytest/
-
-# Системные файлы операционных систем
+# Локальные системные файлы операционных систем
 .DS_Store
 Thumbs.db
