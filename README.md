@@ -65,8 +65,8 @@ Lab2_FIO/
 ---
 
 ## 📚 Полезные ссылки и официальная документация
-* 📘 [Pytest Documentation (Official)](https://pytest.org) — руководство по установке, написанию простых тестов.
-* 🐍 [Effective Python Testing with Pytest (Real Python)](https://realpython.com) — подробный гайд по фикстурам, параметризации и базовым подходам к организации тестов.
+* 📘 [Python Unittest Documentation (Official)](https://docs.python.org/3/library/unittest.html) — руководство по установке, написанию простых тестов.
+* ✨ [DevPractice]([https://devpractice.ru/files/books/python/Python.unittest.pdf](https://devpractice.ru/files/books/python/Python.unittest.pdf)) — подробный гайд по фикстурам, параметризации и базовым подходам к организации тестов.
 
 # ⚠️ Важно!
 ## ⚙️ Руководство по подготовке рабочего места в сетевом окружении
