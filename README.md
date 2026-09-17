@@ -66,7 +66,7 @@ Lab2_FIO/
 
 ## 📚 Полезные ссылки и официальная документация
 * 📘 [Python Unittest Documentation (Official)](https://docs.python.org/3/library/unittest.html) — руководство по установке, написанию простых тестов.
-* ✨ [DevPractice]([https://devpractice.ru/files/books/python/Python.unittest.pdf](https://devpractice.ru/files/books/python/Python.unittest.pdf)) — подробный гайд по фикстурам, параметризации и базовым подходам к организации тестов.
+* ✨ [DevPractice](https://devpractice.ru/files/books/python/Python.unittest.pdf) — подробный гайд по фикстурам, параметризации и базовым подходам к организации тестов.
 
 # ⚠️ Важно!
 ## ⚙️ Руководство по подготовке рабочего места в сетевом окружении
