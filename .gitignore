@@ -1,14 +1,33 @@
 # Виртуальное окружение
+.venv/
 venv/
-ENV/
 env/
+ENV/
+pyvenv.cfg
 
-# Кэш компиляции Python (создается при запусках unittest)
-**/__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
-# Локальные системные файлы операционных систем
+# Логи
+Logs/
+*.log
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.iml
+
+# ОС
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Прочее
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
