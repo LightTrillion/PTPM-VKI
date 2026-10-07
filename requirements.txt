@@ -1,0 +1,2 @@
+# Все зависимости — из стандартной библиотеки Python 3.x
+# (unittest, logging, datetime, math, os, sys)
