@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+pyvenv.cfg
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+Logs/
+*.log
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# ОС
+.DS_Store
+Thumbs.db
