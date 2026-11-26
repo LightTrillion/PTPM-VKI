@@ -73,6 +73,10 @@ class TestTriangleDatabase(unittest.TestCase):
         record = self.db.get_record(4.0, 3.0, 5.0)
         self.assertIsNone(record)
 
+    def test_duplicate_add_does_not_overwrite_record(self):
+        self.db.add_record(3.0, 4.0, 5.0, "разносторонний", None)
+        self.db.add_record(3.0, 4.0, 5.0, "равносторонний", "ошибка")  # INSERT OR IGNORE
+        self.assertEqual(self.db.get_record(3.0, 4.0, 5.0)["triangle_type"], "разносторонний")
 
 if __name__ == "__main__":
     unittest.main()

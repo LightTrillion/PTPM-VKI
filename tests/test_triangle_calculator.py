@@ -81,6 +81,9 @@ class TestTriangleCalculator(unittest.TestCase):
         self.assertEqual(result["type"], "не треугольник")
         self.assertIsNotNone(result["error"])
 
+    def test_invalid_input_returns_marker_vertices(self):
+        self.assertEqual(self.calc.calculate("abc", 4, 5)["vertices"], [(-2, -2)] * 3)
+        self.assertEqual(self.calc.calculate(0, 4, 5)["vertices"], [(-1, -1)] * 3)
 
 if __name__ == "__main__":
     unittest.main()

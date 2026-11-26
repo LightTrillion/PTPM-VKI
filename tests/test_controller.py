@@ -133,6 +133,11 @@ class TestController(unittest.TestCase):
         shown_result = self.ui.show_result.call_args[0][0]
         self.assertEqual(shown_result["type"], "равнобедренный")
 
+    def test_send_failure_is_reported_in_result(self):
+        self.external_service.send.return_value = False  # имитируем отказ внешнего сервиса
+        self.ui.get_triangle_sides.return_value = ("3", "4", "5")
+        result = self.controller.run()
+        self.assertFalse(result["sent"])
 
 if __name__ == "__main__":
     unittest.main()
